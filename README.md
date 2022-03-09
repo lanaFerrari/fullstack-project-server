@@ -13,6 +13,7 @@ To solidify the concepts we’ve covered in Java, Spring, MySQL, & React you’r
 - MySQL
 
 ## Client Side
+https://github.com/lanaFerrari/fullstack-project-client
 
 ## Deployed app
 https://lanaferrari-portfolio.herokuapp.com/
