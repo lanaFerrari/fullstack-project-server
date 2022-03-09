@@ -23,6 +23,12 @@ public class CourseController {
             return ResponseEntity.status(HttpStatus.OK).body(repository.findAll());
         }
 
+    @GetMapping("/course/{id}")
+    public ResponseEntity<Course> getCourseById(@PathVariable String id) {
+        return ResponseEntity.status(HttpStatus.OK).body(repository.findById(Integer.parseInt(id)));
+    }
+
+
     @PostMapping("/course")
     public String createCourse(@RequestBody Course course) {
         repository.save(course);
